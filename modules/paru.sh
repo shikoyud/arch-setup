@@ -2,6 +2,8 @@
 
 set -Eeuo pipefail
 
+rustup default stable
+
 cd "$HOME"
 
 if [[ -d paru ]]; then
