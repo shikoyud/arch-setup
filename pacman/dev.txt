@@ -1,0 +1,11 @@
+base-devel
+neovim
+treesitter
+clang
+cmake
+make
+gdb
+nodejs
+npm
+jdk-openjdk
+python

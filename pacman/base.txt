@@ -1,4 +1,0 @@
-base-devel
-neovim
-curl
-wget

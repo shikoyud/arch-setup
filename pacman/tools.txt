@@ -1,0 +1,12 @@
+unzip
+gzip
+tar
+ripgrep
+fd
+tree
+btop
+less
+man-db
+man-pages
+fzf
+zoxide
