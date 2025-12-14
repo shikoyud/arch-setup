@@ -27,3 +27,4 @@ sudo pacman -S --needed --noconfirm $(cat pacman/fonts.txt)
 #shell
 sudo pacman -S --needed --noconfirm $(cat pacman/shell.txt)
 source modules/shell.sh
+source modules/paru.sh
