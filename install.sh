@@ -18,7 +18,7 @@ require_cmd "pacman"
 sudo -v
 
 log_info "Installing dev packages..."
-sudo pacman -S --needed --noconfirm $(cat pacman/base.txt)
+sudo pacman -S --needed --noconfirm $(cat pacman/dev.txt)
 log_info "Installing tools packages..."
 sudo pacman -S --needed --noconfirm $(cat pacman/tools.txt)
 log_info "Installing network packages..."
