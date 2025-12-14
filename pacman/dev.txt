@@ -10,3 +10,4 @@ npm
 jdk-openjdk
 python
 rustup
+go

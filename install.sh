@@ -18,6 +18,7 @@ sudo pacman -S --needed --noconfirm $(cat pacman/network.txt)
 source modules/network.sh
 #dev
 sudo pacman -S --needed --noconfirm $(cat pacman/dev.txt)
+source modules/rustup.sh
 #tools
 sudo pacman -S --needed --noconfirm $(cat pacman/tools.txt)
 #hyprland
@@ -27,4 +28,4 @@ sudo pacman -S --needed --noconfirm $(cat pacman/fonts.txt)
 #shell
 sudo pacman -S --needed --noconfirm $(cat pacman/shell.txt)
 source modules/shell.sh
-source modules/paru.sh
+source modules/yay.sh
