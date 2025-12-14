@@ -1,3 +1,4 @@
+reflector
 networkmanager
 openssh
 wget

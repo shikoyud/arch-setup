@@ -17,14 +17,15 @@ require_cmd "pacman"
 
 sudo -v
 
+log_info "Installing network packages..."
+sudo pacman -S --needed --noconfirm $(cat pacman/network.txt)
+
+log_info "Running network module"
+source modules/network.sh
+
 log_info "Installing dev packages..."
 sudo pacman -S --needed --noconfirm $(cat pacman/dev.txt)
 log_info "Installing tools packages..."
 sudo pacman -S --needed --noconfirm $(cat pacman/tools.txt)
-log_info "Installing network packages..."
-sudo pacman -S --needed --noconfirm $(cat pacman/network.txt)
 log_info "Installing hyprland packages..."
 sudo pacman -S --needed --noconfirm $(cat pacman/hyprland.txt)
-
-log_info "Running network module"
-source modules/network.sh
