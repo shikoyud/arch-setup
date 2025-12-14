@@ -9,3 +9,5 @@ nodejs
 npm
 jdk-openjdk
 python
+rust
+rustup
