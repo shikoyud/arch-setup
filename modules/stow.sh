@@ -4,7 +4,7 @@ set -e
 
 DOTFILES_DIR="$HOME/dotfiles"
 
-[ -d "$DOTFILES" ] || git clone https://github.com/shikoyud/dotfiles "$DOTFILES"
+[ -d "$DOTFILES_DIR" ] || git clone https://github.com/shikoyud/dotfiles "$DOTFILES_DIR"
 
 cd "$DOTFILES_DIR"
 
