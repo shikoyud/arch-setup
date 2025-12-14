@@ -25,7 +25,9 @@ source modules/network.sh
 
 log_info "Installing dev packages..."
 sudo pacman -S --needed --noconfirm $(cat pacman/dev.txt)
-log_info "Installing tools packages..."
+log_info "Installing tools..."
 sudo pacman -S --needed --noconfirm $(cat pacman/tools.txt)
-log_info "Installing hyprland packages..."
+log_info "Installing hyprland..."
 sudo pacman -S --needed --noconfirm $(cat pacman/hyprland.txt)
+log_info "Installing fonts..."
+sudo pacman -S --needed --noconfirm $(cat pacman/fonts.txt)
