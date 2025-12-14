@@ -10,3 +10,4 @@ man-db
 man-pages
 fzf
 zoxide
+stow
