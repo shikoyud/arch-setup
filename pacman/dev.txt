@@ -1,6 +1,6 @@
 base-devel
 neovim
-treesitter
+tree-sitter
 clang
 cmake
 make
