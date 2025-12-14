@@ -3,3 +3,4 @@ networkmanager
 openssh
 wget
 curl
+inetutils
