@@ -1,4 +1,5 @@
 base-devel
+nvim
 tree-sitter
 clang
 cmake
