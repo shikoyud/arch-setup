@@ -29,3 +29,5 @@ sudo pacman -S --needed --noconfirm $(cat pacman/fonts.txt)
 sudo pacman -S --needed --noconfirm $(cat pacman/shell.txt)
 source modules/shell.sh
 source modules/yay.sh
+source modules/nvim-nightly.sh
+

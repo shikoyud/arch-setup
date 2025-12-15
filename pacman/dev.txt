@@ -1,5 +1,4 @@
 base-devel
-neovim
 tree-sitter
 clang
 cmake
