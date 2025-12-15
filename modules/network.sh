@@ -8,6 +8,8 @@ sudo systemctl enable sshd
 sudo systemctl start NetworkManager
 sudo systemctl enable NetworkManager
 
+sudo systemctl enable bluetooth
+
 sudo reflector \
 	--country Vietnam,Singapore \
 	--age 24 \

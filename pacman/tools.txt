@@ -5,6 +5,7 @@ ripgrep
 fd
 tree
 btop
+nvtop
 less
 man-db
 man-pages
