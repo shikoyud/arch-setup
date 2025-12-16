@@ -12,3 +12,4 @@ man-pages
 fzf
 zoxide
 stow
+imagemagick
