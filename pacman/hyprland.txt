@@ -17,3 +17,4 @@ waybar
 rofi
 brightnessctl
 hyprpaper
+hyprlock
