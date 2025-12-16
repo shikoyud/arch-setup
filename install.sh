@@ -23,6 +23,7 @@ source modules/rustup.sh
 sudo pacman -S --needed --noconfirm $(cat pacman/tools.txt)
 #fonts
 sudo pacman -S --needed --noconfirm $(cat pacman/fonts.txt)
+yay -S --needed --noconfirm $(cat yay/fonts.txt)
 #shell
 sudo pacman -S --needed --noconfirm $(cat pacman/shell.txt)
 
@@ -33,4 +34,3 @@ source modules/nvim-nightly.sh
 #hyprland
 sudo pacman -S --needed --noconfirm $(cat pacman/hyprland.txt)
 yay -S --needed --noconfirm $(cat yay/hyprland.txt)
-yay -S --needed --noconfirm $(cat yay/browser.txt)

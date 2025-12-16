@@ -1,1 +1,4 @@
+ungoogled-chromium-bin
 wlogout
+vesktop
+spotify
