@@ -1,5 +1,4 @@
 base-devel
-nvim
 tree-sitter
 tree-sitter-cli
 clang
@@ -10,6 +9,6 @@ nodejs
 npm
 jdk-openjdk
 python
-pip
+python-pip
 rustup
 go

@@ -18,3 +18,4 @@ rofi
 brightnessctl
 hyprpaper
 hyprlock
+hyprpicker

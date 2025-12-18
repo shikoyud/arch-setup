@@ -23,14 +23,14 @@ source modules/rustup.sh
 sudo pacman -S --needed --noconfirm $(cat pacman/tools.txt)
 #fonts
 sudo pacman -S --needed --noconfirm $(cat pacman/fonts.txt)
-yay -S --needed --noconfirm $(cat yay/fonts.txt)
 #shell
 sudo pacman -S --needed --noconfirm $(cat pacman/shell.txt)
+sudo pacman -S --needed --noconfirm $(cat pacman/hyprland.txt)
 
 source modules/shell.sh
 source modules/yay.sh
+cd "$HOME/arch-setup"
 source modules/nvim-nightly.sh
-
-#hyprland
-sudo pacman -S --needed --noconfirm $(cat pacman/hyprland.txt)
+cd "$HOME/arch-setup"
 yay -S --needed --noconfirm $(cat yay/hyprland.txt)
+yay -S --needed --noconfirm $(cat yay/fonts.txt)

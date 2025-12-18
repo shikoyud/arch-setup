@@ -5,9 +5,6 @@ set -e
 sudo systemctl start sshd
 sudo systemctl enable sshd
 
-sudo systemctl start NetworkManager
-sudo systemctl enable NetworkManager
-
 sudo systemctl enable bluetooth
 
 sudo reflector \

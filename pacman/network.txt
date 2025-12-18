@@ -7,5 +7,4 @@ inetutils
 network-manager-applet
 bluez
 bluez-utils
-bluez-firmware
 blueman

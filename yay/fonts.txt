@@ -1,1 +1,1 @@
-font-awesome-5
+ttf-font-awesome-5
