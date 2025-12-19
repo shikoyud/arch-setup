@@ -7,7 +7,7 @@ make
 gdb
 nodejs
 npm
-jdk-openjdk
+jdk21-openjdk
 python
 python-pip
 rustup

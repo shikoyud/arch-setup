@@ -13,3 +13,6 @@ fzf
 zoxide
 stow
 imagemagick
+fcitx5
+fcitx5-configtool
+fcitx5-bamboo
