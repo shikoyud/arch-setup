@@ -10,6 +10,5 @@
     ```bash
     git clone https://github.com/shikoyud/arch-setup.git
     cd arch-setup
-    chmod +x install.sh
     ./install.sh
     ```
