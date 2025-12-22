@@ -19,3 +19,4 @@ brightnessctl
 hyprpaper
 hyprlock
 hyprpicker
+hyprshot
